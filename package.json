@@ -1,0 +1,23 @@
+{
+  "name": "aventra-fx-platform",
+  "version": "1.0.0",
+  "description": "Aventra FX - Institutional Forex, Crypto & CFD Broker Trading Platform",
+  "private": true,
+  "main": "backend/src/server.js",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "node backend/src/server.js",
+    "dev:backend": "node backend/src/server.js",
+    "dev:frontend": "npm --prefix frontend run dev"
+  },
+  "keywords": [
+    "forex",
+    "webtrader",
+    "trading",
+    "crm",
+    "aventra-fx"
+  ],
+  "author": "Aventra FX",
+  "license": "ISC"
+}
